@@ -1,0 +1,99 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2991382200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Test_steps.openBrowser()"
+            }
+          }
+        ],
+        "line": 32,
+        "name": "Login with valid  data",
+        "description": "",
+        "id": "orangehrm;login-with-valid--data",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3423105700,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "user is on login page",
+            "match": {
+              "location": "Test_steps.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 121438600,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "user entered valid username and password",
+            "match": {
+              "location": "Test_steps.user_entered_valid_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2002999600,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "navigate user to welcome page",
+            "match": {
+              "location": "Test_steps.navigate_user_to_welcome_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2102639200,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "close",
+            "match": {
+              "location": "Test_steps.close()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@OrangeHrm"
+          },
+          {
+            "name": "@Successful_login"
+          }
+        ]
+      }
+    ],
+    "name": "OrangeHrm",
+    "description": "",
+    "id": "orangehrm",
+    "keyword": "Feature",
+    "uri": "Feature/orangehrm.feature",
+    "tags": [
+      {
+        "name": "@OrangeHrm",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
