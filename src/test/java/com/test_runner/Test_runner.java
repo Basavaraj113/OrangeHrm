@@ -12,7 +12,7 @@ import cucumber.api.junit.Cucumber;
 			plugin = {"json:target/cucumber.json"},
 			features="Feature",
 			glue={"step_definitions"}
-			,tags={"@Successful_login"}
+			,tags={"@OrangeHrm"}
 			)
 	public class Test_runner {
 
